@@ -1,6 +1,6 @@
 # Screen Dash Fixer
 
-A [NeosModLoader](https://github.com/neos-modding-group/NeosModLoader) mod for [Neos VR](https://neos.com/) that is a spinoff of 3D Dash On Screen, minus 3D dash and UI editing. That means userspace is fixed to not stuff things into overlay, Camera UI is restored into its VR behavior and can be also unhooked from its slider in mod config, desktop tab control panel keybind is restored and configurable in mod config, and floating VR style notifications are also restored
+A [NeosModLoader](https://github.com/neos-modding-group/NeosModLoader) mod for [Neos VR](https://neos.com/) that is a spinoff of 3D Dash On Screen, minus 3D dash and UI editing. That means userspace is fixed to not stuff things into overlay, Camera UI is restored into its VR behavior and can be also unhooked from its slider in mod config, desktop tab control panel keybind is restored and configurable in mod config, and floating VR style notifications are also restored.
 
 ## Installation
 1. Install [NeosModLoader](https://github.com/zkxs/NeosModLoader).
