@@ -14,7 +14,7 @@ namespace ScreenDashFixer
     {
         public override string Name => "ScreenDashFixer";
         public override string Author => "rampa3";
-        public override string Version => "1.0.0";
+        public override string Version => "1.1.0";
         public override string Link => "https://github.com/rampa3/ScreenDashFixer/";
         private static ModConfiguration Config;
         private static bool desktopNotificationsPresent = false;
