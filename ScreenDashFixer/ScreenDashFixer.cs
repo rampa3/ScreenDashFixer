@@ -64,12 +64,12 @@ namespace ScreenDashFixer
 
 		private static void DesktopControlsKeybindPostfix(DesktopController __instance)
 		{
-			MethodInfo toggleControls = __instance.GetType().GetMethod("ToggleControls", BindingFlags.NonPublic | BindingFlags.Instance);
-			if (__instance.InputInterface.GetKeyDown(Config.GetValue(DESKTOP_CONTROL_PANEL_KEY)))
-			{
-				toggleControls.Invoke(__instance, new Object[] { });
-			}
-		}
+            MethodInfo toggleControls = __instance.GetType().GetMethod("ToggleControls", BindingFlags.NonPublic | BindingFlags.Instance);
+            if (__instance.InputInterface.GetKeyDown(Config.GetValue(DESKTOP_CONTROL_PANEL_KEY)) && __instance.InputInterface.ScreenActive)
+            {
+                toggleControls.Invoke(__instance, new Object[] { });
+            }
+        }
 
 		private static void patchNotifications(Harmony harmony)
 		{
